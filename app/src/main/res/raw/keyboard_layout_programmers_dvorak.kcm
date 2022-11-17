@@ -193,7 +193,7 @@ key LEFT_BRACKET {
   shift: '?'
   capslock: '/'
   capslock+shift: '?'
-  ralt: '¿'
+  ralt: '\u00bf'
 }
 
 key RIGHT_BRACKET {
