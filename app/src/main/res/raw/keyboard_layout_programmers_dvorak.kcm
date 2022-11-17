@@ -3,7 +3,7 @@
 # Programmer's Dvorak
 type OVERLAY
 
-key DOLLAR {
+key GRAVE {
   label: '$'
   base: '$'
   shift: '~'
@@ -11,7 +11,7 @@ key DOLLAR {
   capslock+shift: '~'
 }
 
-key AMPERSAND {
+key 1 {
   label: '&'
   base: '&'
   shift: '%'
@@ -19,7 +19,7 @@ key AMPERSAND {
   capslock+shift: '%'
 }
 
-key 7 {
+key 2 {
   label: '['
   base: '['
   shift: '7'
@@ -27,7 +27,7 @@ key 7 {
   capslock+shift: '7'
 }
 
-key 5 {
+key 3 {
   label: '{'
   base: '{'
   shift: '5'
@@ -35,7 +35,7 @@ key 5 {
   capslock+shift: '5'
 }
 
-key 3 {
+key 4 {
   label: '}'
   base: '}'
   shift: '3'
@@ -43,7 +43,7 @@ key 3 {
   capslock+shift: '3'
 }
 
-key 1 {
+key 5 {
   label: '('
   base: '('
   shift: '1'
@@ -51,7 +51,7 @@ key 1 {
   capslock+shift: '1'
 }
 
-key 9 {
+key 6 {
   label: '='
   base: '='
   shift: '9'
@@ -59,7 +59,7 @@ key 9 {
   capslock+shift: '9'
 }
 
-key 0 {
+key 7 {
   label: '*'
   base: '*'
   shift: '0'
@@ -67,7 +67,7 @@ key 0 {
   capslock+shift: '0'
 }
 
-key 2 {
+key 8 {
   label: ')'
   base: ')'
   shift: '2'
@@ -75,7 +75,7 @@ key 2 {
   capslock+shift: '2'
 }
 
-key 4 {
+key 9 {
   label: '+'
   base: '+'
   shift: '4'
@@ -83,7 +83,7 @@ key 4 {
   capslock+shift: '4'
 }
 
-key 6 {
+key 0 {
   label: ']'
   base: ']'
   shift: '6'
@@ -91,7 +91,7 @@ key 6 {
   capslock+shift: '6'
 }
 
-key 8 {
+key MINUS {
   label: '!'
   base: '!'
   shift: '8'
@@ -99,7 +99,7 @@ key 8 {
   capslock+shift: '!'
 }
 
-key POUND {
+key EQUALS {
   label: '#'
   base: '#'
   shift: '`'
@@ -107,7 +107,7 @@ key POUND {
   capslock+shift: '`'
 }
 
-key SEMICOLON {
+key Q {
   label: ';'
   base: ';'
   shift: ':'
@@ -115,7 +115,7 @@ key SEMICOLON {
   capslock+shift: ':'
 }
 
-key COMMA {
+key W {
   label: ','
   base: ','
   shift: '<'
@@ -123,7 +123,7 @@ key COMMA {
   capslock+shift: '<'
 }
 
-key PERIOD {
+key E {
   label: '.'
   base: '.'
   shift: '>'
@@ -131,7 +131,7 @@ key PERIOD {
   capslock+shift: '>'
 }
 
-key P {
+key R {
   label: 'p'
   base: 'p'
   shift: 'P'
@@ -139,7 +139,7 @@ key P {
   capslock+shift: 'p'
 }
 
-key Y {
+key T {
   label: 'y'
   base: 'y'
   shift: 'Y'
@@ -147,7 +147,7 @@ key Y {
   capslock+shift: 'y'
 }
 
-key F {
+key Y {
   label: 'f'
   base: 'f'
   shift: 'F'
@@ -155,7 +155,7 @@ key F {
   capslock+shift: 'f'
 }
 
-key G {
+key U {
   label: 'g'
   base: 'g'
   shift: 'G'
@@ -163,7 +163,7 @@ key G {
   capslock+shift: 'g'
 }
 
-key C {
+key I {
   label: 'c'
   base: 'c'
   shift: 'C'
@@ -171,7 +171,7 @@ key C {
   capslock+shift: 'c'
 }
 
-key R {
+key O {
   label: 'r'
   base: 'r'
   shift: 'R'
@@ -179,7 +179,7 @@ key R {
   capslock+shift: 'r'
 }
 
-key L {
+key P {
   label: 'l'
   base: 'l'
   shift: 'L'
@@ -187,15 +187,16 @@ key L {
   capslock+shift: 'l'
 }
 
-key SLASH {
+key LEFT_BRACKET {
   label: '/'
   base: '/'
   shift: '?'
   capslock: '/'
   capslock+shift: '?'
+  ralt: '¿'
 }
 
-key AT {
+key RIGHT_BRACKET {
   label: '@'
   base: '@'
   shift: '^'
@@ -209,61 +210,61 @@ key A {
   shift: 'A'
   capslock: 'A'
   capslock+shift: 'a'
-  capslock+ralt: 'Á'
-  shift+ralt: 'Á'
-  capslock+shift+ralt: 'á'
-  ralt: 'á'
+  capslock+ralt: '\u00c1'
+  shift+ralt: '\u00c1'
+  capslock+shift+ralt: '\u00e1'
+  ralt: '\u00e1'
 }
 
-key O {
+key S {
   label: 'o'
   base: 'o'
   shift: 'O'
   capslock: 'O'
   capslock+shift: 'o'
-  capslock+ralt: 'Ó'
-  shift+ralt: 'Ó'
-  capslock+shift+ralt: 'ó'
-  ralt: 'ó'
+  capslock+ralt: '\u00d3'
+  shift+ralt: '\u00d3'
+  capslock+shift+ralt: '\u00f3'
+  ralt: '\u00f3'
 }
 
-key E {
+key D {
   label: 'e'
   base: 'e'
   shift: 'E'
   capslock: 'E'
   capslock+shift: 'e'
-  capslock+ralt: 'É'
-  shift+ralt: 'É'
-  capslock+shift+ralt: 'é'
-  ralt: 'é'
+  capslock+ralt: '\u00c9'
+  shift+ralt: '\u00c9'
+  capslock+shift+ralt: '\u00e9'
+  ralt: '\u00e9'
 }
 
-key U {
+key F {
   label: 'u'
   base: 'u'
   shift: 'U'
   capslock: 'U'
   capslock+shift: 'u'
-  capslock+ralt: 'Ú'
-  shift+ralt: 'Ú'
-  capslock+shift+ralt: 'ú'
-  ralt: 'ú'
+  capslock+ralt: '\u00da'
+  shift+ralt: '\u00da'
+  capslock+shift+ralt: '\u00fa'
+  ralt: '\u00fa'
 }
 
-key I {
+key G {
   label: 'i'
   base: 'i'
   shift: 'I'
   capslock: 'I'
   capslock+shift: 'i'
-  capslock+ralt: 'Í'
-  shift+ralt: 'Í'
-  capslock+shift+ralt: 'í'
-  ralt: 'í'
+  capslock+ralt: '\u00cd'
+  shift+ralt: '\u00cd'
+  capslock+shift+ralt: '\u00ed'
+  ralt: '\u00ed'
 }
 
-key D {
+key H {
   label: 'd'
   base: 'd'
   shift: 'D'
@@ -271,7 +272,7 @@ key D {
   capslock+shift: 'd'
 }
 
-key H {
+key J {
   label: 'h'
   base: 'h'
   shift: 'H'
@@ -279,7 +280,7 @@ key H {
   capslock+shift: 'h'
 }
 
-key T {
+key K {
   label: 't'
   base: 't'
   shift: 'T'
@@ -287,19 +288,19 @@ key T {
   capslock+shift: 't'
 }
 
-key N {
+key L {
   label: 'n'
   base: 'n'
   shift: 'N'
   capslock: 'N'
   capslock+shift: 'n'
-  capslock+ralt: 'Ñ'
-  shift+ralt: 'Ñ'
-  capslock+shift+ralt: 'ñ'
-  ralt: 'ñ'
+  capslock+ralt: '\u00d1'
+  shift+ralt: '\u00d1'
+  capslock+shift+ralt: '\u00f1'
+  ralt: '\u00f1'
 }
 
-key S {
+key SEMICOLON {
   label: 's'
   base: 's'
   shift: 'S'
@@ -307,7 +308,7 @@ key S {
   capslock+shift: 's'
 }
 
-key MINUS {
+key APOSTROPHE {
   label: '-'
   base: '-'
   shift: '_'
@@ -323,23 +324,15 @@ key BACKSLASH {
   capslock+shift: '|'
 }
 
-key LESS {
-  label: '<'
-  base: '<'
-  shift: '>'
-  capslock: '<'
-  capslock+shift: '>'
-}
-
-key APOSTROPHE {
+key Z {
   label: '\''
   base: '\''
-  shift: '\"'
+  shift: '"'
   capslock: '\''
-  capslock+shift: '\"'
+  capslock+shift: '"'
 }
 
-key Q {
+key X {
   label: 'q'
   base: 'q'
   shift: 'Q'
@@ -347,7 +340,7 @@ key Q {
   capslock+shift: 'q'
 }
 
-key J {
+key C {
   label: 'j'
   base: 'j'
   shift: 'J'
@@ -355,7 +348,7 @@ key J {
   capslock+shift: 'j'
 }
 
-key K {
+key V {
   label: 'k'
   base: 'k'
   shift: 'K'
@@ -363,7 +356,7 @@ key K {
   capslock+shift: 'k'
 }
 
-key X {
+key B {
   label: 'x'
   base: 'x'
   shift: 'X'
@@ -371,7 +364,7 @@ key X {
   capslock+shift: 'x'
 }
 
-key B {
+key N {
   label: 'b'
   base: 'b'
   shift: 'B'
@@ -387,7 +380,7 @@ key M {
   capslock+shift: 'm'
 }
 
-key W {
+key COMMA {
   label: 'w'
   base: 'w'
   shift: 'W'
@@ -395,7 +388,7 @@ key W {
   capslock+shift: 'w'
 }
 
-key V {
+key PERIOD {
   label: 'v'
   base: 'v'
   shift: 'V'
@@ -403,18 +396,10 @@ key V {
   capslock+shift: 'v'
 }
 
-key Z {
+key SLASH {
   label: 'z'
   base: 'z'
   shift: 'Z'
   capslock: 'Z'
   capslock+shift: 'z'
-}
-
-key SPACE {
-  label: '\u0020'
-  base: '\u0020'
-  shift: '\u0020'
-  capslock: '\u0020'
-  capslock+shift: '\u0020'
 }
