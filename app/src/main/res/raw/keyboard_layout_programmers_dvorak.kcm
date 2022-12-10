@@ -3,6 +3,9 @@
 # Programmer's Dvorak
 type OVERLAY
 
+map key 58 ESCAPE
+map key 1 CAPS_LOCK
+
 key GRAVE {
   label: '$'
   base: '$'
