@@ -188,6 +188,7 @@ key P {
   shift: 'L'
   capslock: 'L'
   capslock+shift: 'l'
+  ralt: fallback DPAD_RIGHT
 }
 
 key LEFT_BRACKET {
@@ -281,6 +282,7 @@ key J {
   shift: 'H'
   capslock: 'H'
   capslock+shift: 'h'
+  ralt: fallback DPAD_LEFT
 }
 
 key K {
@@ -349,6 +351,7 @@ key C {
   shift: 'J'
   capslock: 'J'
   capslock+shift: 'j'
+  ralt: fallback DPAD_DOWN
 }
 
 key V {
@@ -357,6 +360,7 @@ key V {
   shift: 'K'
   capslock: 'K'
   capslock+shift: 'k'
+  ralt: fallback DPAD_UP
 }
 
 key B {
